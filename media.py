@@ -1,6 +1,10 @@
 def verifica_aprovacao(n1, n2):
 
+    # calculando a média das duas notas
+
     media = (n1 + n2) / 2
+
+    # verificando a situação do aluno de acordo com a média
 
     if media >= 7:
         return "Aluno(a) aprovado!!! :)"
