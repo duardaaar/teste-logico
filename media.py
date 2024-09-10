@@ -11,8 +11,7 @@ def verifica_aprovacao(n1, n2):
     elif media < 5:
         return "Aluno(a) nao atingiu a média. Reprovado! :("
     else:
-        return "resposta inválida"
-
+        return f"Prova final com média {media}."
 
 n1 = float(input("Insira a primeira nota: "))
 n2 = float(input("Insira a segunda nota: "))
